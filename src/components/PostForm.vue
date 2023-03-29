@@ -20,7 +20,7 @@
         </div>
             
         <div>
-            <button @click="addPost">выложить пост</button>
+            <button @click="addPost" >выложить пост</button>
         </div>
   </div>
 </template>
@@ -33,6 +33,8 @@ export default {
             post:{
                 title: '',
                 body: '',
+                posts: [],
+                searchString: '',
             },
         }
     },

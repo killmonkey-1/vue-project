@@ -38,6 +38,11 @@ export default {
             required: false,
         },
     },
+methods:{
+    deletePost(index){
+        this.$emit('delete-Post', index)
+    }
+},
 }
 </script>
 
